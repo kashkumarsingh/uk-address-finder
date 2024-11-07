@@ -1,0 +1,37 @@
+# WordPress core files
+/wp-content/plugins/uk-address-finder/uk-address-finder.php
+wp-content/plugins/uk-address-finder/**/*.php
+
+# Node modules and build artifacts (from Webpack, etc.)
+node_modules/
+dist/
+build/
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/editor specific files
+.idea/
+.vscode/
+
+# NPM/Yarn lock files
+package-lock.json
+yarn.lock
+
+# Cache directories
+.cache/
+*.tmp
+
+# WordPress plugin metadata files
+*.zip
+
+# Environment configuration files
+.env
+
+# npm, Yarn, and other temporary files
+npm-debug.log
+yarn-error.log

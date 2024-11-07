@@ -1,0 +1,11 @@
+@use 'mixins' as *;
+
+// _manual-address.scss
+.uk-address-finder__manual-address {
+    @include input-style(100%);
+    display: none;
+
+    &.show {
+        display: block;
+    }
+}

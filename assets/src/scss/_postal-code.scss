@@ -1,0 +1,7 @@
+@use 'mixins' as *;
+@use 'variables' as *;
+// _postal-code.scss
+#postal-code {
+    @include input-style(100%);
+    margin-bottom: $margin-base;
+}

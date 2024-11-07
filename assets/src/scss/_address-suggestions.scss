@@ -1,0 +1,10 @@
+@use 'mixins' as *;
+// _address-suggestions.scss
+.uk-address-finder__address-suggestions {
+    @include input-style(100%);
+    display: none;
+
+    &.show {
+        display: block;
+    }
+}

@@ -1,0 +1,8 @@
+@use 'variables' as *;
+// _mixins.scss
+@mixin input-style($width) {
+    width: $width;
+    padding: $padding-base;
+    border: 1px solid $input-border-color;
+    border-radius: 4px;
+}

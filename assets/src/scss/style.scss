@@ -1,0 +1,21 @@
+// style.scss
+@use 'variables' as *;
+@use 'mixins' as *;
+@use 'postal-code' as *;
+@use 'address-suggestions' as *;
+@use 'manual-address' as *;
+
+.uk-address-finder {
+    // Block: uk-address-finder
+    &__postal-code {
+        @extend #postal-code;
+    }
+
+    &__address-suggestions {
+        @extend .uk-address-finder__address-suggestions;
+    }
+
+    &__manual-address {
+        @extend .uk-address-finder__manual-address;
+    }
+}
